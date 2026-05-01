@@ -24,7 +24,7 @@ const Tables = () =>{
         
 
         </div>
-        <div className="grid grid-cols-5 gap-5 px-10 py-5 overflow-y-scroll h-[calc(100vh-13rem)] ">
+        <div className="grid grid-cols-5 gap-5 px-10 py-5 overflow-y-scroll h-[calc(100vh-13rem)] no-scrollbar">
             {
                 tables.map((table) => {
                     return(

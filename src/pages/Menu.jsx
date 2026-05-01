@@ -38,7 +38,7 @@ const Menu = () =>{
         {/* Customer Info */}
        <CustomerInfo />
         <hr className="border-[#2a2a2a] border-t-2" />
-        <div className="flex-1 overflow-y-auto ">
+        <div className="flex-1 overflow-y-auto scrollbar-hide">
         {/* cart Items */}
         <CartInfo />
         </div>
