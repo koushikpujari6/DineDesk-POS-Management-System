@@ -34,11 +34,11 @@ const Menu = () =>{
         <MenuContainer />
         </div>
             {/*Right Div*/}
-    <div className="flex-[1] bg-[#1a1a1a] mt-4 mr-3 mb-4 rounded-lg pt-2 flex flex-col overflow-hidden">
+    <div className="flex-[1] bg-[#1a1a1a] mt-4 mr-3 mb-4 rounded-lg pt-2 flex flex-col overflow-hidden ">
         {/* Customer Info */}
        <CustomerInfo />
         <hr className="border-[#2a2a2a] border-t-2" />
-        <div className="flex-1 overflow-y-auto scrollbar-hide">
+        <div className="flex-1 overflow-y-auto ">
         {/* cart Items */}
         <CartInfo />
         </div>
